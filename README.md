@@ -7,7 +7,11 @@ I will write my tests first.
 ##Documentation
 I will document my code.
 
-###tests
+###To Run Server
+cd to the testing directory.  Then run:
+`npm run start`
+
+###To Run Test
 cd to the testing directory.  Then run:
 `npm run test`
 
