@@ -13,9 +13,9 @@ beforeEach(()=>{
   );
 });
 
-it('has both text area and button',()=>{
+it('has both text area and two buttons',()=>{
   expect(wrapped.find('textarea').length).toEqual(1);
-  expect(wrapped.find('button').length).toEqual(1);
+  expect(wrapped.find('button').length).toEqual(2);
 });
 
 //used to describe certain groups of tests in a file
